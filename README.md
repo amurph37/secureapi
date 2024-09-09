@@ -2,22 +2,6 @@ Secure API
 Overview
 This project is a Spring Boot application demonstrating secure API endpoints using OAuth2 and JWT for authentication and authorization. It includes configurations for both OAuth2 Resource Server and OAuth2 Client, along with role-based access control.
 
-Prerequisites
-Java 17+: Ensure you have JDK 17 or later installed.
-Maven: Used for building the project.
-Setup
-Clone the Repository
-bash
-Copy code
-git clone https://github.com/your-repo/secure-api.git
-cd secure-api
-Update Configuration
-Open src/main/resources/application.properties.
-Update the following properties with your actual values:
-properties
-Copy code
-spring.application.name=Secure API
-
 # JWT Secret Key
 jwt.secret=mysecretkey1234567890
 
